@@ -45,7 +45,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - LGUI
   - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: NUMBER, s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: Fn}
