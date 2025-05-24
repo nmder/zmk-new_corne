@@ -182,7 +182,7 @@
             bindings = <
 &trans  &kp N1              &kp N2          &kp N3       &kp N4       &kp N5                                         &mmv MOVE_UP                     &kp N6                &kp N7             &kp N8           &kp N9           &kp N0               &kp DEL
 &trans  &mt LCTRL NUMBER_6  &mt LSHFT N7    &mt LALT N8  &mt LGUI N9  &kp N0                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &mt RGUI LBRC      &mt RALT RBRC    &mt RSHIFT RPAR  &mt RCTRL BACKSPACE  &trans
-&trans  &rgb_ug RGB_OFF     &rgb_ug RGB_ON  &trans       &trans       &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &kp END              &kp PG_DN
+&trans  &rgb_ug RGB_OFF     &rgb_ug RGB_ON  &kp BSPC     &kp DOT      &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &rgb_ug RGB_EFR  &rgb_ug RGB_BRD  &kp END              &kp PG_DN
                                             &trans       &trans       &trans                                                                          &kp INS               &kp DEL            &trans
             >;
 
