@@ -23,12 +23,12 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - {t: H, h: RGUI}
-  - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: NUMBER, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - H
+  - {t: J, h: RGUI}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - Z
   - X
@@ -72,12 +72,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: (, h: RGUI}
-  - {t: '{', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '}', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ), h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace$$', type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (
+  - {t: '{', h: RGUI}
+  - {t: '}', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ), h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -198,7 +198,7 @@ layers:
   - {type: held}
 combos:
 - p: [25, 24]
-  k: {t: '$$mdi:keyboard-tab$$', h: 'Ctl+$$mdi:apple-keyboard-shift$$'}
+  k: {t: '$$mdi:keyboard-tab$$', h: 'AltGr+$$mdi:apple-keyboard-shift$$'}
   l: [QWERTY]
 - p: [8, 7]
   k: {t: '[', s: '{'}
@@ -207,15 +207,15 @@ combos:
   k: {t: ']', s: '}'}
   l: [QWERTY]
 - p: [23, 22]
-  k: {t: (, h: 'Gui+$$mdi:apple-keyboard-option$$'}
+  k: (
   l: [QWERTY]
 - p: [23, 24]
-  k: {t: ), h: 'AltGr+$$mdi:apple-keyboard-shift$$'}
+  k: {t: ), h: 'Gui+$$mdi:apple-keyboard-option$$'}
   l: [QWERTY]
-- p: [37, 36]
+- p: [37, 38]
   k: {t: '-', s: _}
   l: [QWERTY]
-- p: [38, 37]
+- p: [38, 39]
   k: +
   l: [QWERTY]
 - p: [15, 16]
@@ -227,9 +227,9 @@ combos:
 - p: [17, 3]
   k: ^
   l: [QWERTY]
-- p: [8, 22]
+- p: [23, 9]
   k: $
   l: [QWERTY]
-- p: [23, 36]
+- p: [37, 24]
   k: '*'
   l: [QWERTY]
