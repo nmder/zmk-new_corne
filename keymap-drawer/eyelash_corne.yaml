@@ -127,7 +127,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:volume-off$$
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
