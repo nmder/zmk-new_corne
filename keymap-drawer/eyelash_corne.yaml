@@ -162,7 +162,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:progress-download$$
-  - F6
+  - F13
   - F4
   - F5
   - F6
@@ -177,7 +177,7 @@ layers:
   - OUT BLE
   - OUT USB
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - F11
+  - F14
   - F7
   - F8
   - F9
