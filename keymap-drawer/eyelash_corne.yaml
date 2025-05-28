@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: NUMBER, s: '$$mdi:backspace-reverse-outline$$'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: Fn}
+  - '&td_mo_caps'
   NUMBER:
   - RGB ON
   - {t: '-', s: _}
@@ -195,7 +195,7 @@ layers:
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [25, 24]
   k: {t: '$$mdi:keyboard-tab$$', h: 'AltGr+$$mdi:apple-keyboard-shift$$'}
