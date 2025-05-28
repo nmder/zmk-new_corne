@@ -58,6 +58,13 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        td_mo_caps: td_mo_caps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_MO_CAPS";
+            #binding-cells = <0>;
+            bindings = <&mo 3>, <&kp CAPS>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -168,10 +175,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB     &kp Q        &kp W        &kp E       &kp R       &kp T                               &kp UP                &kp Y        &kp U          &kp I       &kp O         &kp P           &kp BSPC
-&lt 1 ESC   &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RGUI J     &mt RALT K  &mt RSHIFT L  &mt RCTRL SEMI  &lt 1 ENTER
-&rsft_bspc  &kp Z        &kp X        &kp C       &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M          &kp COMMA   &kp PERIOD    &kp SLASH       &kp DEL
-                                      &kp LGUI    &lt 1 ESC   &lt 2 SPACE                                               &lt 2 SPACE  &lt_lsft_bspc  &lt 3 CAPS
+&kp TAB     &kp Q        &kp W        &kp E       &kp R       &kp T                               &kp UP                &kp Y        &kp U          &kp I        &kp O         &kp P           &kp BSPC
+&lt 1 ESC   &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RGUI J     &mt RALT K   &mt RSHIFT L  &mt RCTRL SEMI  &lt 1 ENTER
+&rsft_bspc  &kp Z        &kp X        &kp C       &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M          &kp COMMA    &kp PERIOD    &kp SLASH       &kp DEL
+                                      &kp LGUI    &lt 1 ESC   &lt 2 SPACE                                               &lt 2 SPACE  &lt_lsft_bspc  &td_mo_caps
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
