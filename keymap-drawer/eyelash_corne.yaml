@@ -99,7 +99,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
-  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
   - '!'
   - _
   - {t: '=', s: +}
@@ -112,7 +112,7 @@ layers:
   - '%'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '@', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
@@ -127,7 +127,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
+  - $$mdi:volume-low$$
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
