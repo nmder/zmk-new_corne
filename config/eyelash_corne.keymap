@@ -91,13 +91,6 @@
             layers = <0>;
         };
 
-        lbkt {
-            bindings = <&kp LBKT>;
-            key-positions = <8 7>;
-            timeout-ms = <20>;
-            layers = <0>;
-        };
-
         rbkt {
             bindings = <&kp RBKT>;
             key-positions = <9 8>;
@@ -107,7 +100,7 @@
 
         lpar {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <23 22>;
+            key-positions = <22 24>;
             timeout-ms = <20>;
             layers = <0>;
         };
@@ -147,15 +140,8 @@
             layers = <0>;
         };
 
-        carat {
-            bindings = <&kp CARET>;
-            key-positions = <17 3>;
-            timeout-ms = <20>;
-            layers = <0>;
-        };
-
         dollar {
-            bindings = <&kp DLLR>;
+            bindings = <&kp LBKT>;
             key-positions = <23 9>;
             timeout-ms = <20>;
             layers = <0>;
