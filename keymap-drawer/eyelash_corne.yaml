@@ -177,7 +177,7 @@ layers:
   - OUT BLE
   - OUT USB
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - F14
+  - {t: GLOBE, h: '$$mdi:gesture-tap-hold$$'}
   - F7
   - F8
   - F9
