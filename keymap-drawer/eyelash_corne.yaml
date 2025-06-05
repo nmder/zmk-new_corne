@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: GLOBE, h: '$$mdi:gesture-tap-hold$$'}
   - LGUI
   - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
