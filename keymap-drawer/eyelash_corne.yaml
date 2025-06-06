@@ -117,7 +117,7 @@ layers:
   - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '''', h: '$$mdi:apple-keyboard-option$$', s: '"'}
   - {t: '"', h: LGUI}
-  - '@'
+  - '#'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -128,10 +128,10 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:skip-previous$$
-  - PLAY PAUSE
+  - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
