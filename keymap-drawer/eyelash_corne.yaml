@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', h: NUMBER}
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
+  - {t: GLOBE, h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: GLOBE, h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - LGUI
   - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
