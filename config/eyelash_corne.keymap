@@ -131,9 +131,9 @@
             layers = <0>;
         };
 
-        dollar {
+        lbkt {
             bindings = <&kp LBKT>;
-            key-positions = <23 9>;
+            key-positions = <9 7>;
             timeout-ms = <20>;
             layers = <0>;
         };
