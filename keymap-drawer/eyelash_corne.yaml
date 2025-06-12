@@ -221,7 +221,7 @@ combos:
 - p: [16, 17]
   k: {t: '=', h: Alt+LGUI, s: +}
   l: [QWERTY]
-- p: [23, 9]
+- p: [9, 7]
   k: {t: '[', s: '{'}
   l: [QWERTY]
 - p: [37, 24]
