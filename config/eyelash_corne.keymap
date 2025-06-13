@@ -63,7 +63,7 @@
             #binding-cells = <0>;
             bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
     };
 
