@@ -57,11 +57,11 @@ layers:
   - {t: '3', s: '#'}
   - +
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-right$$
-  - {t: '0', s: )}
+  - '&vol_d_mute'
+  - $$mdi:skip-previous$$
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
+  - $$mdi:volume-high$$
   - $$mdi:backspace-reverse-outline$$
   - {t: RGB OFF, type: held}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
