@@ -62,6 +62,8 @@
             label = "VOL_D_MUTE";
             #binding-cells = <0>;
             bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
+
+            tapping-term-ms = <100>;
         };
     };
 
