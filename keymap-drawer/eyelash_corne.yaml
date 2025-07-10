@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
-  - '#'
+  - +
   - $$mdi:keyboard-tab$$
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
