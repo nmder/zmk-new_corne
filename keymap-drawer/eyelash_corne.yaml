@@ -227,3 +227,15 @@ combos:
 - p: [37, 24]
   k: '*'
   l: [QWERTY]
+- p: [22, 24]
+  k: '{'
+  l: [SYMBOL]
+- p: [24, 23]
+  k: '}'
+  l: [SYMBOL]
+- p: [22, 24]
+  k: {t: '[', s: '{'}
+  l: [NUMBER]
+- p: [24, 23]
+  k: {t: ']', s: '}'}
+  l: [NUMBER]
