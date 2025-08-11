@@ -150,7 +150,7 @@
         star {
             bindings = <&kp ASTERISK>;
             key-positions = <37 24>;
-            timeout-ms = <20>;
+            timeout-ms = <25>;
             layers = <0>;
         };
     };
