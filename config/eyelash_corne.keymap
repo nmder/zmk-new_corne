@@ -153,6 +153,34 @@
             timeout-ms = <25>;
             layers = <0>;
         };
+
+        lbrc {
+            bindings = <&kp LBRC>;
+            key-positions = <22 24>;
+            timeout-ms = <25>;
+            layers = <2>;
+        };
+
+        rbrc {
+            bindings = <&kp RBRC>;
+            key-positions = <24 23>;
+            timeout-ms = <25>;
+            layers = <2>;
+        };
+
+        lbkt2 {
+            bindings = <&kp LBKT>;
+            key-positions = <22 24>;
+            timeout-ms = <25>;
+            layers = <1>;
+        };
+
+        rbkt2 {
+            bindings = <&kp RBKT>;
+            key-positions = <24 23>;
+            timeout-ms = <25>;
+            layers = <1>;
+        };
     };
 
     keymap {
