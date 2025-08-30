@@ -86,9 +86,9 @@ layers:
   - {t: ., s: '>'}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - RGB EFR
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - RGB EFR
   - RGB BRD
   - END
   - PG DN
