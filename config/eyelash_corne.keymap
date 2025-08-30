@@ -201,10 +201,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&rgb_ug RGB_ON   &kp MINUS       &kp N1        &kp N2       &kp N3             &kp PLUS                                 &mmv MOVE_UP                     &vol_d_mute           &kp C_PREV         &kp C_PLAY_PAUSE  &kp C_NEXT       &kp C_VOL_UP         &kp DEL
-&rgb_ug RGB_OFF  &mt LCTRL BSPC  &mt LSHFT N4  &mt LALT N5  &mt LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &mt RGUI LBRC      &mt RALT RBRC     &mt RSHIFT RPAR  &mt RCTRL BACKSPACE  &trans
-&kp SLASH        &kp STAR        &kp N7        &kp N8       &kp N9             &kp DOT    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &rgb_ug RGB_EFR   &rgb_ug RGB_BRD  &kp END              &kp PG_DN
-                                               &trans       &kp SLASH          &kp ASTRK                                                                 &kp INS               &sk GLOBE          &trans
+&rgb_ug RGB_ON   &kp MINUS       &kp N1        &kp N2       &kp N3             &kp PLUS                                 &mmv MOVE_UP                     &vol_d_mute           &kp C_PREV        &kp C_PLAY_PAUSE   &kp C_NEXT       &kp C_VOL_UP         &kp DEL
+&rgb_ug RGB_OFF  &mt LCTRL BSPC  &mt LSHFT N4  &mt LALT N5  &mt LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_PARENTHESIS  &mt RGUI LBRC     &mt RALT RBRC      &mt RSHIFT RPAR  &mt RCTRL BACKSPACE  &trans
+&kp SLASH        &kp STAR        &kp N7        &kp N8       &kp N9             &kp DOT    &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &rgb_ug RGB_BRD  &kp END              &kp PG_DN
+                                               &trans       &kp SLASH          &kp ASTRK                                                                 &kp INS               &sk GLOBE         &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
