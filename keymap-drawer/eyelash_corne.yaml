@@ -276,15 +276,9 @@ combos:
 - p: [37, 24]
   k: '*'
   l: [QWERTY]
-- p: [22, 24]
+- p: [22, 25]
   k: '{'
-  l: [SYMBOL]
-- p: [24, 23]
-  k: '}'
-  l: [SYMBOL]
-- p: [22, 24]
-  k: {t: '[', s: '{'}
-  l: [NUMBER]
-- p: [24, 23]
-  k: {t: ']', s: '}'}
-  l: [NUMBER]
+  l: [QWERTY]
+- p: [23, 25]
+  k: {t: '}', h: 'Gui+$$mdi:apple-keyboard-shift$$'}
+  l: [QWERTY]

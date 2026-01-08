@@ -624,6 +624,19 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="102" width="28" height="26" class="combo"/>
 <text x="756" y="115" class="combo tap">*</text>
 </g>
+<g class="combo combopos-10">
+<path d="M756,94 l-65,3" class="combo"/>
+<path d="M756,94 l65,-3" class="combo"/>
+<rect rx="6" ry="6" x="742" y="81" width="28" height="26" class="combo"/>
+<text x="756" y="94" class="combo tap">{</text>
+</g>
+<g class="combo combopos-11">
+<path d="M784,91 l-37,0" class="combo"/>
+<path d="M784,91 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="770" y="78" width="28" height="26" class="combo"/>
+<text x="784" y="91" class="combo tap">}</text>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="776" y="87" height="15" width="15.0" class="combo hold glyph mdi:apple-keyboard-shift"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -910,18 +923,6 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap layer-activator">Game</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g class="combo combopos-0">
-<path d="M728,91 l-37,4" class="combo"/>
-<path d="M728,91 l37,-4" class="combo"/>
-<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
-<text x="728" y="91" class="combo tap">[</text>
-<text x="728" y="80" class="combo shifted">{</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
-<text x="756" y="87" class="combo tap">]</text>
-<text x="756" y="76" class="combo shifted">}</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1180,16 +1181,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<path d="M728,91 l-37,4" class="combo"/>
-<path d="M728,91 l37,-4" class="combo"/>
-<rect rx="6" ry="6" x="714" y="78" width="28" height="26" class="combo"/>
-<text x="728" y="91" class="combo tap">{</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
-<text x="756" y="87" class="combo tap">}</text>
 </g>
 </g>
 </g>
