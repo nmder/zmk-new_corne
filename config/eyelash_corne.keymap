@@ -154,32 +154,18 @@
             layers = <0>;
         };
 
-        lbrc {
+        LCBR {
             bindings = <&kp LBRC>;
-            key-positions = <22 24>;
+            key-positions = <22 25>;
             timeout-ms = <25>;
-            layers = <2>;
+            layers = <0>;
         };
 
-        rbrc {
-            bindings = <&kp RBRC>;
-            key-positions = <24 23>;
+        rcbr {
+            bindings = <&mt RG(RSHFT) RBRC>;
+            key-positions = <23 25>;
+            layers = <0>;
             timeout-ms = <25>;
-            layers = <2>;
-        };
-
-        lbkt2 {
-            bindings = <&kp LBKT>;
-            key-positions = <22 24>;
-            timeout-ms = <25>;
-            layers = <1>;
-        };
-
-        rbkt2 {
-            bindings = <&kp RBKT>;
-            key-positions = <24 23>;
-            timeout-ms = <25>;
-            layers = <1>;
         };
     };
 
