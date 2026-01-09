@@ -282,3 +282,9 @@ combos:
 - p: [23, 25]
   k: {t: '}', h: 'Gui+$$mdi:apple-keyboard-shift$$'}
   l: [QWERTY]
+- p: [17, 15]
+  k: {t: '"', h: 'Gui+$$mdi:apple-keyboard-shift$$'}
+  l: [QWERTY]
+- p: [18, 16]
+  k: {t: '''', s: '"'}
+  l: [QWERTY]
