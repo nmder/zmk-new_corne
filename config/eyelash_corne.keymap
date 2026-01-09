@@ -167,6 +167,20 @@
             layers = <0>;
             timeout-ms = <25>;
         };
+
+        dquote {
+            bindings = <&mt LG(LSHFT) DOUBLE_QUOTES>;
+            key-positions = <17 15>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
+
+        squote {
+            bindings = <&kp SQT>;
+            key-positions = <18 16>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
     };
 
     keymap {
