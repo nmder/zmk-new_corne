@@ -285,6 +285,6 @@ combos:
 - p: [17, 15]
   k: {t: '"', h: 'Gui+$$mdi:apple-keyboard-shift$$'}
   l: [QWERTY]
-- p: [18, 16]
-  k: {t: '''', s: '"'}
+- p: [17, 14]
+  k: {t: '''', h: 'Gui+$$mdi:apple-keyboard-control$$', s: '"'}
   l: [QWERTY]
