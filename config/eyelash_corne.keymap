@@ -176,8 +176,8 @@
         };
 
         squote {
-            bindings = <&kp SQT>;
-            key-positions = <18 16>;
+            bindings = <&mt LG(LCTRL) SINGLE_QUOTE>;
+            key-positions = <17 14>;
             timeout-ms = <25>;
             layers = <0>;
         };
