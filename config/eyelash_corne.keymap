@@ -181,6 +181,13 @@
             timeout-ms = <25>;
             layers = <0>;
         };
+
+        lbkt2 {
+            bindings = <&kp LBKT>;
+            key-positions = <23 38>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
     };
 
     keymap {
