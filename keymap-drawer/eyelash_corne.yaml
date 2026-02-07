@@ -288,3 +288,6 @@ combos:
 - p: [17, 14]
   k: {t: '''', h: 'Gui+$$mdi:apple-keyboard-control$$', s: '"'}
   l: [QWERTY]
+- p: [23, 38]
+  k: {t: '[', s: '{'}
+  l: [QWERTY]
