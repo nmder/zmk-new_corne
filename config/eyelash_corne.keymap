@@ -91,13 +91,6 @@
             layers = <0>;
         };
 
-        rbkt {
-            bindings = <&kp RBKT>;
-            key-positions = <9 8>;
-            timeout-ms = <25>;
-            layers = <0>;
-        };
-
         lpar {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <22 24>;
@@ -140,13 +133,6 @@
             layers = <0>;
         };
 
-        lbkt {
-            bindings = <&kp LBKT>;
-            key-positions = <9 7>;
-            timeout-ms = <25>;
-            layers = <0>;
-        };
-
         star {
             bindings = <&kp ASTERISK>;
             key-positions = <37 24>;
@@ -185,6 +171,13 @@
         lbkt2 {
             bindings = <&kp LBKT>;
             key-positions = <23 38>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
+
+        rbkt2 {
+            bindings = <&kp RBKT>;
+            key-positions = <24 39>;
             timeout-ms = <25>;
             layers = <0>;
         };
