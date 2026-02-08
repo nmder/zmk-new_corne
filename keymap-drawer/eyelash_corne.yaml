@@ -249,9 +249,6 @@ combos:
 - p: [25, 24]
   k: {t: '$$mdi:keyboard-tab$$', h: 'AltGr+$$mdi:apple-keyboard-shift$$'}
   l: [QWERTY]
-- p: [9, 8]
-  k: {t: ']', s: '}'}
-  l: [QWERTY]
 - p: [22, 24]
   k: (
   l: [QWERTY]
@@ -270,9 +267,6 @@ combos:
 - p: [16, 17]
   k: {t: '=', h: Alt+LGUI, s: +}
   l: [QWERTY]
-- p: [9, 7]
-  k: {t: '[', s: '{'}
-  l: [QWERTY]
 - p: [37, 24]
   k: '*'
   l: [QWERTY]
@@ -290,4 +284,7 @@ combos:
   l: [QWERTY]
 - p: [23, 38]
   k: {t: '[', s: '{'}
+  l: [QWERTY]
+- p: [24, 39]
+  k: {t: ']', s: '}'}
   l: [QWERTY]
