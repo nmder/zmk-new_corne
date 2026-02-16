@@ -241,7 +241,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: QWERTY, h: toggle}
