@@ -700,7 +700,8 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 41)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">&amp;vol_d_mu…</tspan></text>
+<use href="#mdi:volume-low" xlink:href="#mdi:volume-low" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:volume-low"/>
+<use href="#mdi:volume-off" xlink:href="#mdi:volume-off" x="-8" y="-24" height="15" width="15.0" class="key shifted glyph mdi:volume-off"/>
 </g>
 <g transform="translate(728, 35)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

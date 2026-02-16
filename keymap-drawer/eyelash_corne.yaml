@@ -57,7 +57,7 @@ layers:
   - {t: '3', s: '#'}
   - +
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&vol_d_mute'
+  - {t: '$$mdi:volume-low$$', s: '$$mdi:volume-off$$'}
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
