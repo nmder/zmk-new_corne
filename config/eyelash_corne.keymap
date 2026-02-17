@@ -60,7 +60,7 @@
         lsft_vold_mute: lsft_vold_mute {
             compatible = "zmk,behavior-mod-morph";
             label = "LSFT_VOLD_MUTE";
-            bindings = <&kp C_VOL_DN>, <&kp C_MUTE>;
+            bindings = <&kp K_VOLUME_DOWN>, <&kp K_MUTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
