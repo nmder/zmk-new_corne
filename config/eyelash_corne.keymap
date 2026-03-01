@@ -157,14 +157,14 @@
         dquote {
             bindings = <&mt LG(LSHFT) DOUBLE_QUOTES>;
             key-positions = <17 15>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             layers = <0>;
         };
 
         squote {
             bindings = <&mt LG(LCTRL) SINGLE_QUOTE>;
             key-positions = <17 14>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             layers = <0>;
         };
 
@@ -185,6 +185,8 @@
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <8 9>;
+            timeout-ms = <25>;
+            layers = <0>;
         };
     };
 
