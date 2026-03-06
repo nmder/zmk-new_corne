@@ -126,8 +126,8 @@
             layers = <0>;
         };
 
-        hash {
-            bindings = <&mt LA(LGUI) HASH>;
+        double-quote {
+            bindings = <&mt LA(LGUI) DOUBLE_QUOTES>;
             key-positions = <16 17>;
             timeout-ms = <40>;
             layers = <0>;
@@ -154,8 +154,8 @@
             timeout-ms = <25>;
         };
 
-        dquote {
-            bindings = <&mt LG(LSHFT) DOUBLE_QUOTES>;
+        hash {
+            bindings = <&mt LG(LSHFT) HASH>;
             key-positions = <17 15>;
             timeout-ms = <40>;
             layers = <0>;
