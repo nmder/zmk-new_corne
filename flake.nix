@@ -23,7 +23,7 @@
         shield = "nice_view";
 
 
-        zephyrDepsHash = "sha256-DfWdXZxu7esMezot+xUj5KH9EOX0d7rivYGuXUmRaN4=";
+        zephyrDepsHash = "sha256-PAx4ovahXeGm8ihicGvI0v+q7urfkjnmj09thuluFRs=";
 
         meta = {
           description = "ZMK firmware";
