@@ -163,7 +163,7 @@
 
         squote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <17 31>;
+            key-positions = <31 32>;
             timeout-ms = <40>;
             layers = <0>;
         };
