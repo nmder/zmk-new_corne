@@ -188,6 +188,18 @@
             timeout-ms = <40>;
             layers = <0>;
         };
+
+        backquote {
+            bindings = <&kp GRAVE>;
+            key-positions = <30 31>;
+            layers = <0>;
+            timeout-ms = <40>;
+        };
+
+        Tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <16 18>;
+        };
     };
 
     keymap {
