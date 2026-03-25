@@ -135,8 +135,8 @@
             layers = <0>;
         };
 
-        double-quote {
-            bindings = <&mt LA(LGUI) DOUBLE_QUOTES>;
+        single-quote {
+            bindings = <&mt LA(LGUI) SINGLE_QUOTE>;
             key-positions = <16 17>;
             timeout-ms = <40>;
             layers = <0>;
@@ -191,16 +191,9 @@
             layers = <0>;
         };
 
-        squote {
-            bindings = <&kp SQT>;
-            key-positions = <32 31>;
-            timeout-ms = <40>;
-            layers = <0>;
-        };
-
         backquote {
             bindings = <&kp GRAVE>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
             layers = <0>;
             timeout-ms = <40>;
         };
