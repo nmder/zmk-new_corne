@@ -4,6 +4,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
+#include <behaviors/runtime-sensor-rotate.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -29,7 +30,6 @@
 &mt { flavor = "balanced"; };
 
 &lt { flavor = "balanced"; };
-
 / {
     behaviors {
         lsft_bspc: lsft_bspc {
@@ -237,7 +237,7 @@
                                                &trans       &kp SLASH          &kp ASTRK                                                                 &kp INS          &sk GLOBE         &to 4
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         raise_layer {
@@ -249,7 +249,7 @@
                                                      &kp LCTRL     &kp LSHIFT            &kp SPACE                                                             &kp RET         &sk GLOBE       &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         layer_3 {
@@ -261,7 +261,7 @@
                                   &trans  &trans  &kp PRINTSCREEN                                                                 &trans           &trans           &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         Game {
