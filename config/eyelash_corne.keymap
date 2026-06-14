@@ -204,6 +204,13 @@
             timeout-ms = <30>;
             layers = <0>;
         };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <37 39>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
     };
 
     keymap {
