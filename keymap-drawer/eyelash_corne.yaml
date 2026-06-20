@@ -262,7 +262,7 @@ combos:
   k: +
   l: [QWERTY]
 - p: [15, 16]
-  k: {t: _, h: Sft+LALT}
+  k: {t: '`', h: Sft+LALT}
   l: [QWERTY]
 - p: [16, 17]
   k: {t: '''', h: Alt+LGUI}
@@ -288,12 +288,9 @@ combos:
 - p: [8, 9]
   k: '='
   l: [QWERTY]
-- p: [31, 32]
-  k: '`'
-  l: [QWERTY]
 - p: [16, 18]
   k: '~'
   l: [QWERTY]
 - p: [37, 39]
-  k: ENTER
+  k: _
   l: [QWERTY]
