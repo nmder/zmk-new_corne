@@ -129,7 +129,7 @@
         };
 
         undersc {
-            bindings = <&mt LS(LALT) UNDER>;
+            bindings = <&mt LS(LALT) GRAVE>;
             key-positions = <15 16>;
             timeout-ms = <40>;
             layers = <0>;
@@ -191,13 +191,6 @@
             layers = <0>;
         };
 
-        backquote {
-            bindings = <&kp GRAVE>;
-            key-positions = <31 32>;
-            layers = <0>;
-            timeout-ms = <40>;
-        };
-
         Tilde {
             bindings = <&kp TILDE>;
             key-positions = <16 18>;
@@ -205,8 +198,8 @@
             layers = <0>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
+        underscore {
+            bindings = <&kp UNDERSCORE>;
             key-positions = <37 39>;
             timeout-ms = <25>;
             layers = <0>;
