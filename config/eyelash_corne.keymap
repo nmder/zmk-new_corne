@@ -200,7 +200,7 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <37 39>;
+            key-positions = <25 26>;
             timeout-ms = <25>;
             layers = <0>;
         };
