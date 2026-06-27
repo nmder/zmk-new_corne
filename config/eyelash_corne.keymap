@@ -118,14 +118,14 @@
             bindings = <&kp MINUS>;
             key-positions = <37 38>;
             timeout-ms = <25>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         plus {
             bindings = <&kp PLUS>;
             key-positions = <38 39>;
             timeout-ms = <25>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         undersc {
@@ -146,7 +146,7 @@
             bindings = <&lsft_ast_perc>;
             key-positions = <37 24>;
             timeout-ms = <25>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         LCBR {
@@ -199,7 +199,7 @@
         };
 
         underscore {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&mt RC(RSHFT) UNDER>;
             key-positions = <25 26>;
             timeout-ms = <25>;
             layers = <0>;
