@@ -257,10 +257,10 @@ combos:
   l: [QWERTY]
 - p: [37, 38]
   k: '-'
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [38, 39]
   k: +
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [15, 16]
   k: {t: '`', h: Sft+LALT}
   l: [QWERTY]
@@ -269,7 +269,7 @@ combos:
   l: [QWERTY]
 - p: [37, 24]
   k: {t: '*', s: '%'}
-  l: [QWERTY]
+  l: [QWERTY, NUMBER]
 - p: [22, 25]
   k: '{'
   l: [QWERTY]
@@ -292,5 +292,5 @@ combos:
   k: '~'
   l: [QWERTY]
 - p: [25, 26]
-  k: _
+  k: {t: _, h: Ctl+RSHFT}
   l: [QWERTY]

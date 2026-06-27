@@ -423,6 +423,7 @@ path.combo {
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="854" y="85" width="28" height="26" class="combo"/>
 <text x="868" y="98" class="combo tap">_</text>
+<text x="868" y="109" class="combo hold"><tspan style="font-size: 78%">Ctl+RSHFT</tspan></text>
 </g>
 </g>
 </g>
@@ -658,6 +659,19 @@ path.combo {
 <a href="#Game">
 <text x="0" y="0" class="key tap layer-activator">Game</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
+<text x="756" y="143" class="combo tap">-</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
+<text x="812" y="143" class="combo tap">+</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="742" y="102" width="28" height="26" class="combo"/>
+<text x="756" y="115" class="combo tap">*</text>
+<text x="756" y="104" class="combo shifted">%</text>
 </g>
 </g>
 </g>
