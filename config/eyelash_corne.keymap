@@ -179,7 +179,7 @@
 
         rbkt2 {
             bindings = <&kp RBKT>;
-            key-positions = <24 39>;
+            key-positions = <23 39>;
             timeout-ms = <25>;
             layers = <0>;
         };
