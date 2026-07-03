@@ -45,7 +45,7 @@ layers:
   - RIGHT SHIFT
   - LGUI
   - {t: ESC, h: NUMBER}
-  - {t: SPACE, h: SYMBOL}
+  - {t: ENTER, h: SYMBOL}
   - {t: SPACE, h: SYMBOL}
   - {t: BACKSPACE, h: NUMBER, s: DEL}
   - '&td_mo_caps'
