@@ -1,6 +1,15 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
+#define HM_TAPPING_TERM 200
+#define HM_TAPPING_TERM_FAST 200
+
+// Positional hold triggers for timeless-style homerow mods.
+// Key positions are from eyelash_corne.json.
+#define KEYS_L 0 1 2 3 4 5 13 14 15 16 17 18 28 29 30 31 32 33 34 23 24 25 26
+#define KEYS_R 7 8 9 10 11 12 22 23 24 25 26 27 36 37 38 39 40 41 15 16 17 18
+#define KEYS_T 42 43 44 45 46 47
+
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
@@ -32,6 +41,60 @@
 
 / {
     behaviors {
+        hm_l: homerow_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <HM_TAPPING_TERM>;
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <KEYS_R KEYS_T>;
+        };
+
+        hm_r: homerow_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <HM_TAPPING_TERM>;
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <KEYS_L KEYS_T>;
+        };
+
+        hm_shift_l: hm_shift_l {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <KEYS_R KEYS_T>;
+        };
+
+        hm_shift_r: hm_shift_r {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <HM_TAPPING_TERM_FAST>;
+            quick-tap-ms = <200>;
+            hold-trigger-key-positions = <KEYS_L KEYS_T>;
+        };
+
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+
+            flavor = "balanced";
+            tapping-term-ms = <HM_TAPPING_TERM>;
+            quick-tap-ms = <200>;
+        };
+
         lsft_bspc: lsft_bspc {
             compatible = "zmk,behavior-mod-morph";
             label = "LSFT_BSPC";
@@ -94,7 +157,7 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&mt RA(RSHFT) TAB>;
+            bindings = <&hm_r RA(RSHFT) TAB>;
             key-positions = <25 24>;
             timeout-ms = <40>;
             layers = <0>;
@@ -108,7 +171,7 @@
         };
 
         rpar {
-            bindings = <&mt RG(RALT) RPAR>;
+            bindings = <&hm_r RG(RALT) RPAR>;
             key-positions = <23 24>;
             timeout-ms = <25>;
             layers = <0>;
@@ -129,14 +192,14 @@
         };
 
         undersc {
-            bindings = <&mt LS(LALT) GRAVE>;
+            bindings = <&hm_l LS(LALT) GRAVE>;
             key-positions = <15 16>;
             timeout-ms = <40>;
             layers = <0>;
         };
 
         single-quote {
-            bindings = <&mt LA(LGUI) SINGLE_QUOTE>;
+            bindings = <&hm_l LA(LGUI) SINGLE_QUOTE>;
             key-positions = <16 17>;
             timeout-ms = <40>;
             layers = <0>;
@@ -157,14 +220,14 @@
         };
 
         rcbr {
-            bindings = <&mt RG(RSHFT) RBRC>;
+            bindings = <&hm_r RG(RSHFT) RBRC>;
             key-positions = <23 25>;
             layers = <0>;
             timeout-ms = <25>;
         };
 
         hash {
-            bindings = <&mt LG(LSHFT) HASH>;
+            bindings = <&hm_l LG(LSHFT) HASH>;
             key-positions = <17 15>;
             timeout-ms = <40>;
             layers = <0>;
@@ -199,7 +262,7 @@
         };
 
         underscore {
-            bindings = <&mt RC(RSHFT) UNDER>;
+            bindings = <&hm_r RC(RSHFT) UNDER>;
             key-positions = <25 26>;
             timeout-ms = <25>;
             layers = <0>;
@@ -213,7 +276,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q        &kp W        &kp E       &kp R       &kp T                               &kp UP                &kp Y        &kp U          &kp I        &kp O         &kp P           &kp BSPC
-&lt 1 ESC  &mt LCTRL A  &mt LSHFT S  &mt LALT D  &mt LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RGUI J     &mt RALT K   &mt RSHIFT L  &mt RCTRL SEMI  &lt 1 ENTER
+&lt 1 ESC  &hm_l LCTRL A  &hm_shift_l LSHFT S  &hm_l LALT D  &hm_l LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hm_r RGUI J     &hm_r RALT K   &hm_shift_r RSHIFT L  &hm_r RCTRL SEMI  &lt 1 ENTER
 &sk GLOBE  &kp Z        &kp X        &kp C       &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M          &kp COMMA    &kp PERIOD    &kp SLASH       &kp RIGHT_SHIFT
                                      &kp LGUI    &lt 1 ESC   &lt 2 ENTER                                               &lt 2 SPACE  &lt_lsft_bspc  &td_mo_caps
             >;
@@ -225,7 +288,7 @@
             display-name = "NUMBER";
             bindings = <
 &rgb_ug RGB_ON   &kp MINUS       &kp N1        &kp N2       &kp N3             &kp PLUS                                 &mmv MOVE_UP                     &lsft_vold_mute  &kp C_PREV        &kp C_PLAY_PAUSE   &kp C_NEXT              &kp C_VOL_UP         &kp DEL
-&rgb_ug RGB_OFF  &mt LCTRL BSPC  &mt LSHFT N4  &mt LALT N5  &mt LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE   &mt RGUI LPAR     &mt RALT RPAR      &mt RSHIFT RIGHT_BRACE  &mt RCTRL BACKSPACE  &trans
+&rgb_ug RGB_OFF  &hm_l LCTRL BSPC  &hm_shift_l LSHFT N4  &hm_l LALT N5  &hm_l LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE   &hm_r RGUI LPAR     &hm_r RALT RPAR      &hm_shift_r RSHIFT RIGHT_BRACE  &hm_r RCTRL BACKSPACE  &trans
 &kp SLASH        &kp STAR        &kp N7        &kp N8       &kp N9             &kp DOT    &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &rgb_ug RGB_BRD         &kp END              &kp PG_DN
                                                &trans       &kp SLASH          &kp ASTRK                                                                 &kp INS          &sk GLOBE         &to 4
             >;
@@ -237,7 +300,7 @@
             display-name = "SYMBOL";
             bindings = <
 &kp C_MUTE       &kp EXCL      &kp UNDERSCORE        &kp EQUAL     &kp GRAVE             &kp TILDE                            &mmv MOVE_UP                     &kp ASTERISK    &kp CARET       &kp DLLR      &kp PRCNT  &kp PLUS       &trans
-&kp C_VOLUME_UP  &mt LCTRL AT  &mt LSHFT AMPS        &mt LALT SQT  &mt LGUI DQT          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &lsft_bspc     &trans
+&kp C_VOLUME_UP  &hm_l LCTRL AT  &hm_shift_l LSHFT AMPS        &hm_l LALT SQT  &hm_l LGUI DQT          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &lsft_bspc     &trans
 &kp C_VOL_DN     &kp CAPS      &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp C_BRIGHTNESS_INC  &kp PIPE   &trans                    &mmv MOVE_DOWN                   &kp ENTER       &kp MINUS       &kp PLUS      &kp TAB    &kp BACKSLASH  &trans
                                                      &kp LCTRL     &kp LSHIFT            &kp SPACE                                                             &kp RET         &sk GLOBE       &trans
             >;
