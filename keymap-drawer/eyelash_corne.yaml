@@ -128,11 +128,11 @@ layers:
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
-  - $$mdi:apple-keyboard-caps$$
   - $$mdi:brightness-7$$
-  - $$mdi:play-pause$$
   - $$mdi:brightness-5$$
+  - $$mdi:apple-keyboard-caps$$
   - '|'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
