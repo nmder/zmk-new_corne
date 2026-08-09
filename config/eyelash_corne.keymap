@@ -3,8 +3,8 @@
 
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <behaviors.dtsi>
 #include <behaviors/runtime-sensor-rotate.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
@@ -30,6 +30,7 @@
 &mt { flavor = "balanced"; };
 
 &lt { flavor = "balanced"; };
+
 / {
     behaviors {
         lsft_bspc: lsft_bspc {
@@ -243,10 +244,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp C_MUTE       &kp EXCL      &kp UNDERSCORE        &kp EQUAL     &kp GRAVE             &kp TILDE                            &mmv MOVE_UP                     &kp ASTERISK    &kp CARET       &kp DLLR      &kp PRCNT  &kp PLUS       &trans
-&kp C_VOLUME_UP  &mt LCTRL AT  &mt LSHFT AMPS        &mt LALT SQT  &mt LGUI DQT          &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &lsft_bspc     &trans
-&kp C_VOL_DN     &kp CAPS      &kp C_BRIGHTNESS_DEC  &kp C_PP      &kp C_BRIGHTNESS_INC  &kp PIPE   &trans                    &mmv MOVE_DOWN                   &kp ENTER       &kp MINUS       &kp PLUS      &kp TAB    &kp BACKSLASH  &trans
-                                                     &kp LCTRL     &kp LSHIFT            &kp SPACE                                                             &kp RET         &sk GLOBE       &trans
+&kp C_MUTE       &kp EXCL              &kp UNDERSCORE        &kp EQUAL     &kp GRAVE     &kp TILDE                            &mmv MOVE_UP                     &kp ASTERISK    &kp CARET       &kp DLLR      &kp PRCNT  &kp PLUS       &trans
+&kp C_VOLUME_UP  &mt LCTRL AT          &mt LSHFT AMPS        &mt LALT SQT  &mt LGUI DQT  &kp HASH             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &lsft_bspc     &trans
+&kp C_VOL_DN     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp CAPSLOCK  &kp PIPE      &trans     &trans                    &mmv MOVE_DOWN                   &kp ENTER       &kp MINUS       &kp PLUS      &kp TAB    &kp BACKSLASH  &trans
+                                                             &kp LCTRL     &kp LSHIFT    &kp SPACE                                                             &kp RET         &sk GLOBE       &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
