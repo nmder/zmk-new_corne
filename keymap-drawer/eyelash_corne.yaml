@@ -128,11 +128,11 @@ layers:
   - {t: BACKSPACE, s: DELETE}
   - {t: ▽, type: trans}
   - VOL DN
+  - BRI DN
+  - BRI UP
   - CAPS
-  - BRIGHTNESS DEC
-  - PP
-  - BRIGHTNESS INC
   - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mmv MOVE_DOWN'
   - ENTER
