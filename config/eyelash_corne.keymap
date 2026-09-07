@@ -256,7 +256,7 @@
 
         Tilde {
             bindings = <&kp TILDE>;
-            key-positions = <16 18>;
+            key-positions = <31 32>;
             timeout-ms = <30>;
             layers = <0>;
         };
