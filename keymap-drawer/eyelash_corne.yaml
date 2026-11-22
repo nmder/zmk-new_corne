@@ -77,7 +77,7 @@ layers:
   - {t: ), h: RALT}
   - {t: '}', h: RSHIFT}
   - {t: BACKSPACE, h: RCTRL}
-  - {t: ▽, type: trans}
+  - PG UP
   - /
   - '*'
   - '7'
@@ -89,7 +89,7 @@ layers:
   - RGB EFR
   - '['
   - ']'
-  - RGB BRD
+  - HOME
   - END
   - PG DN
   - {t: ▽, type: trans}
