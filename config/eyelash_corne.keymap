@@ -288,8 +288,8 @@
             display-name = "NUMBER";
             bindings = <
 &rgb_ug RGB_ON   &kp MINUS         &kp N1                &kp N2         &kp N3               &kp PLUS                                 &mmv MOVE_UP                     &lsft_vold_mute  &kp C_PREV        &kp C_PLAY_PAUSE   &kp C_NEXT                      &kp C_VOL_UP           &kp DEL
-&rgb_ug RGB_OFF  &hm_l LCTRL BSPC  &hm_shift_l LSHFT N4  &hm_l LALT N5  &hm_l LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE   &hm_r RGUI LPAR   &hm_r RALT RPAR    &hm_shift_r RSHIFT RIGHT_BRACE  &hm_r RCTRL BACKSPACE  &trans
-&kp SLASH        &kp STAR          &kp N7                &kp N8         &kp N9               &kp DOT    &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &rgb_ug RGB_BRD                 &kp END                &kp PG_DN
+&rgb_ug RGB_OFF  &hm_l LCTRL BSPC  &hm_shift_l LSHFT N4  &hm_l LALT N5  &hm_l LGUI NUMBER_6  &kp N0                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_BRACE   &hm_r RGUI LPAR   &hm_r RALT RPAR    &hm_shift_r RSHIFT RIGHT_BRACE  &hm_r RCTRL BACKSPACE  &kp PG_UP
+&kp SLASH        &kp STAR          &kp N7                &kp N8         &kp N9               &kp DOT    &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HOME                        &kp END                &kp PG_DN
                                                          &trans         &kp SLASH            &kp ASTRK                                                                 &kp INS          &sk GLOBE         &to 4
             >;
 
